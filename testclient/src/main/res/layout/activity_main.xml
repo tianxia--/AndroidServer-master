@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/home_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/home_btn_send_json"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送用户信息"
+        android:layout_centerInParent="true"
+      />
+    <Button
+        android:id="@+id/home_btn_getImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取服务器图片"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:id="@+id/home_btn_save_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上传图片到服务器"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/home_error_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+</LinearLayout>
